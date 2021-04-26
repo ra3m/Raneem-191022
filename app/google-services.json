@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "109950985933",
+    "firebase_url": "https://raneem-191022-default-rtdb.europe-west1.firebasedatabase.app",
+    "project_id": "raneem-191022",
+    "storage_bucket": "raneem-191022.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:109950985933:android:957a5170cf97f6ca496b84",
+        "android_client_info": {
+          "package_name": "com.example.raneem_191022"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "109950985933-0te7mqrc750bi3tt8fn55m88olrjufio.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCRwI70NgnwJgrbNJLlZ9OXv9MLJTV8pPk"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "109950985933-0te7mqrc750bi3tt8fn55m88olrjufio.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
