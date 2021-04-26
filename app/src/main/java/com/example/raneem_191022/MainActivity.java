@@ -10,7 +10,7 @@ import android.widget.Toast;
 
 public class MainActivity extends AppCompatActivity {
     //String userid, key2update, value2;
-    Button btn, btn2;
+    Button btn, btn2, btn3;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -20,6 +20,7 @@ public class MainActivity extends AppCompatActivity {
 
         btn = (Button)findViewById(R.id.fetchbtn);
         btn2 = (Button)findViewById(R.id.editbtn);
+        btn3 = (Button)findViewById(R.id.weather);
 
         btn.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -32,6 +33,13 @@ public class MainActivity extends AppCompatActivity {
             @Override
             public void onClick(View v) {
                 startActivity(new Intent(MainActivity.this, SecondActivity.class));
+            }
+        });
+
+        btn3.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                startActivity(new Intent(MainActivity.this, ThirdActivity.class));
             }
         });
     }
